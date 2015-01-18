@@ -1,0 +1,43 @@
+{
+    "name": "gourmet/kitchen-sink"
+    , "description": "{{@TODO description}}"
+    , "type": "cakephp-plugin"
+    , "keywords": [
+        "cakephp"
+        , "gourmet"
+    ]
+    , "homepage": "https://github.com/gourmet/kitchen-sink"
+    , "license": "MIT"
+    , "authors": [
+        {
+            "name": "Jad Bitar"
+            , "homepage": "http://jadb.io"
+            , "role": "Author"
+        }
+        , {
+            "name": "Others"
+            , "homepage": "https://github.com/gourmet/kitchen-sink/graphs/contributors"
+        }
+    ]
+    , "support": {
+        "issues": "https://github.com/gourmet/kitchen-sink/issues"
+        , "source": "https://github.com/gourmet/kitchen-sink"
+    }
+    , "require": {
+        "cakephp/cakephp": "3.0.*-dev"
+        , "cakephp/plugin-installer": "*"
+    }
+    , "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+    , "autoload": {
+        "psr-4": {
+            "Gourmet\\KitchenSink\\": "src"
+        }
+    }
+    , "autoload-dev": {
+        "psr-4": {
+            "Gourmet\\KitchenSink\\Test\\": "tests"
+        }
+    }
+}
